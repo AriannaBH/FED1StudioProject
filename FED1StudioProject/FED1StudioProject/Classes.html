@@ -1,0 +1,226 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Classes | Softball Addict</title>
+    <meta name="description" content="=This is a site description" />
+    <meta name="keywords" content="learning, html, css, website basics, FED1" />
+    <meta name="author" content="Arianna Harrison" />
+
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link href="css/CssStyleSheet.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+    <script>
+        $(function () {
+            $("#accordion").accordion();
+            $('#simpleTable').DataTable();
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <section id="socials">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </section>
+        <!-- page headings -->
+        <section class="title">
+            <h4>Softball Addict</h4>
+            <p>Respect All, Fear None</p>
+        </section>
+        <!--<section>
+            <ul>
+                <li>Home</li>
+                <li>Classes</li>
+                <li>Team</li>
+                <li>Contact</li>
+            </ul>
+        </section>-->
+    </header>
+    <div id="menu-btn" class="button" onclick="openMenuNav()">
+        <span class="vertical-text">MENU</span>
+    </div>
+    <div id="menu-nav" class="sidenav">
+        <a href="javascript:void(0)" class="close-btn" onclick="closeMenuNav()">&times;</a>
+        <a href="Index.html">Home</a>
+        <a href="Classes.html">Courses</a>
+        <a href="Team.html">Team</a>
+        <a href="Contact.html">Contact Us</a>
+    </div>
+
+    <main>
+        <h1 class="classes">Courses</h1>
+        <div id="accordion">
+            <h3>Hitting 101</h3>
+            <div>
+                <p>
+                    Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+                    ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+                    amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+                    odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+                </p>
+            </div>
+            <h3>Infield 102</h3>
+            <div>
+                <p>
+                    Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+                    purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+                    velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+                    suscipit faucibus urna.
+                </p>
+            </div>
+            <h3>Outfield 103</h3>
+            <div>
+                <p>
+                    Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+                    Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+                    ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+                    lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+                </p>
+                <ul>
+                    <li>List item one</li>
+                    <li>List item two</li>
+                    <li>List item three</li>
+                </ul>
+            </div>
+            <h3>Base Running 104</h3>
+            <div>
+                <p>
+                    Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+                    et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+                    faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+                    mauris vel est.
+                </p>
+                <p>
+                    Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+                    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                    inceptos himenaeos.
+                </p>
+            </div>
+            <h3>Pitching 105</h3>
+            <div>
+                <p>
+                    Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+                    et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+                    faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+                    mauris vel est.
+                </p>
+                <p>
+                    Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+                    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                    inceptos himenaeos.
+                </p>
+            </div>
+            <h3>Catching 106</h3>
+            <div>
+                <p>
+                    Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+                    et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+                    faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+                    mauris vel est.
+                </p>
+                <p>
+                    Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+                    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                    inceptos himenaeos.
+                </p>
+            </div>
+        </div>
+        <section>
+            <h1 class="classes">Courses List</h1>
+           
+            <div class="row">
+                <article class="col-sm-12">
+                    <table id="simpleTable" class="display">
+                        <thead>
+                            <tr>
+                                <th>Class Name</th>
+                                <th>Instructor</th>
+                                <th>Meets</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Hitting 101</td>
+                                <td>Kelsey Thomas</td>
+                                <td>
+                                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Infield 102</td>
+                                <td>Margot Simmons</td>
+                                <td>
+                                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Outfield 103</td>
+                                <td>Micheal Evens</td>
+                                <td>
+                                   
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Base Running 104</td>
+                                <td>Carter Lance</td>
+                                <td>
+                                   
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Pitching 105</td>
+                                <td>Rebecca Rouse</td>
+                                <td>
+                                   
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Catching 106</td>
+                                <td>Rob Zimmerman</td>
+                                <td>
+                                   
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section id="socials">
+            <p>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                Twitter: @softballaddict
+            </p>
+            <p>
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                Facebook: www.facebook.com/softballaddict
+            </p>
+            <p>
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                LinkedIn: www.linkedin.com/softballaddict
+            </p>
+        </section>
+        &copy; All Rights Reserved 2020
+    </footer>
+
+    <script>
+        function openMenuNav() {
+            document.getElementById('menu-btn').style.display = "none";
+            document.getElementById('menu-nav').style.width = "250px";
+        }
+        function closeMenuNav() {
+            document.getElementById('menu-btn').style.display = "block";
+            document.getElementById('menu-nav').style.width = "0";
+
+        }
+    </script>
+</body>
+</html>

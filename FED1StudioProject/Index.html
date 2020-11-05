@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Home | Softball Addict</title>
+    <meta name="description" content="=This is a site description" />
+    <meta name="keywords" content="learning, html, css, website basics, FED1" />
+    <meta name="author" content="Arianna Harrison" />
+
+    <link href="css/CssStyleSheet.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <section id="socials">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </section>
+        <!-- page headings -->
+        <section class="title">
+            <h4>
+
+                Softball Addict
+
+            </h4>
+            <p>Respect All, Fear None</p>
+        </section>
+    </header>
+
+    <div id="menu-btn" class="button" onclick="openMenuNav()">
+        <span class="vertical-text">MENU</span>
+    </div>
+    <div id="menu-nav" class="sidenav">
+        <a href="javascript:void(0)" class="close-btn" onclick="closeMenuNav()">&times;</a>
+        <a href="Index.html">Home</a>
+        <a href="Classes.html">Courses</a>
+        <a href="Team.html">Team</a>
+        <a href="Contact.html">Contact Us</a>
+    </div>
+
+    <main>
+        <h1 class="classes">Home</h1>
+        <section>
+            <!-- about us section -->
+            <h3 id="subtitles">About Us</h3>
+            <p id="indexText">We are Softball Addicts teaching up and coming players the game of softball. We offer all areas oon the field within our classes. For each area there is a beginner course, followed by an intermediate course, and topped with a advanced course. Every beginner class falls on Mondays and Tuesdays, intermediate classes are on Wednesdays and Thursdays, and lastly our advanced classes remain on Fridays and Saturdays. *all courses are 2 hours long*</p>
+        </section>
+        <section>
+            <!-- why choose us section -->
+            <h1>Why Choose Us</h1>
+            <section>
+                <h3 id="subtitles">Lorem ipsum dolor</h3>
+                <p id="indexText">Vivamus mollis erat commodo lacinia iaculis. In libero purus, pretium non rutrum quis, molestie at leo. Aliquam sit amet feugiat eros, et dapibus justo. Cras congue pharetra nulla, quis pharetra eros feugiat ut. Nunc eu condimentum nisi. Duis feugiat urna est, sit amet tempor ex viverra eget. Maecenas aliquet condimentum tempus.</p>
+                <p>Learn more</p>
+            </section>
+            <section>
+                <h3 id="subtitles">Lorem ipsum dolor</h3>
+                <p id="indexText">Vivamus mollis erat commodo lacinia iaculis. In libero purus, pretium non rutrum quis, molestie at leo. Aliquam sit amet feugiat eros, et dapibus justo. Cras congue pharetra nulla, quis pharetra eros feugiat ut. Nunc eu condimentum nisi. Duis feugiat urna est, sit amet tempor ex viverra eget. Maecenas aliquet condimentum tempus.</p>
+                <p>Learn more</p>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <section id="socials">
+            <p>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                Twitter: @softballaddict
+            </p>
+            <p>
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                Facebook: www.facebook.com/softballaddict
+            </p>
+            <p>
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                LinkedIn: www.linkedin.com/softballaddict
+            </p>
+        </section>
+        &copy; All Rights Reserved 2020
+    </footer>
+
+    <!-- Side Nav -->
+
+
+    <script>
+        function openMenuNav() {
+            document.getElementById('menu-btn').style.display = "none";
+            document.getElementById('menu-nav').style.width = "250px";
+        }
+        function closeMenuNav() {
+            document.getElementById('menu-btn').style.display = "block";
+            document.getElementById('menu-nav').style.width = "0";
+
+        }
+    </script>
+
+</body>
+</html>
+
+<!-- TODO Add links to socials... -->

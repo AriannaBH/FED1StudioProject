@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Team | Softball Addict</title>
+    <meta name="description" content="=This is a site description" />
+    <meta name="keywords" content="learning, html, css, website basics, FED1" />
+    <meta name="author" content="Arianna Harrison" />
+
+    <link href="css/CssStyleSheet.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <section id="socials">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </section>
+        <!-- page headings -->
+        <section class="title">
+            <h4>Softball Addict</h4>
+            <p>Respect All, Fear None</p>
+        </section>
+        <!--<section>
+            <ul>
+                <li>Home</li>
+                <li>Classes</li>
+                <li>Team</li>
+                <li>Contact</li>
+            </ul>
+        </section>-->
+    </header>
+    <div id="menu-btn" class="button" onclick="openMenuNav()">
+        <span class="vertical-text">MENU</span>
+    </div>
+    <div id="menu-nav" class="sidenav">
+        <a href="javascript:void(0)" class="close-btn" onclick="closeMenuNav()">&times;</a>
+        <a href="Index.html">Home</a>
+        <a href="Classes.html">Courses</a>
+        <a href="Team.html">Team</a>
+        <a href="Contact.html">Contact Us</a>
+    </div>
+
+    <main>
+        <h1 class="classes">Team</h1>
+        <section>
+            <article>
+                <h1 id="leadership">Leadership</h1>
+                <!-- person1 -->
+                <h3>Cordell Harrison</h3>
+                <!-- info on them -->
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquet eget sit amet tellus cras adipiscing. Quis hendrerit dolor magna eget est lorem ipsum. Faucibus vitae aliquet nec ullamcorper sit amet risus. Placerat orci nulla pellentesque dignissim enim. Arcu felis bibendum ut tristique et. Mi bibendum neque egestas congue quisque egestas diam in arcu. Ultrices in iaculis nunc sed. In fermentum et sollicitudin ac orci. Nunc eget lorem dolor sed viverra ipsum nunc. Dui vivamus arcu felis bibendum ut tristique. Ipsum faucibus vitae aliquet nec ullamcorper sit amet. Lorem donec massa sapien faucibus et molestie. Molestie nunc non blandit massa.</p>
+            </article>
+
+            <article>
+                <!-- person 2 -->
+                <h3>Amy Harrison</h3>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquet eget sit amet tellus cras adipiscing. Quis hendrerit dolor magna eget est lorem ipsum. Faucibus vitae aliquet nec ullamcorper sit amet risus. Placerat orci nulla pellentesque dignissim enim. Arcu felis bibendum ut tristique et. Mi bibendum neque egestas congue quisque egestas diam in arcu. Ultrices in iaculis nunc sed. In fermentum et sollicitudin ac orci. Nunc eget lorem dolor sed viverra ipsum nunc. Dui vivamus arcu felis bibendum ut tristique. Ipsum faucibus vitae aliquet nec ullamcorper sit amet. Lorem donec massa sapien faucibus et molestie. Molestie nunc non blandit massa.</p>
+            </article>
+
+            <article>
+                <!-- person 3 -->
+                <h3>Analya Harrison</h3>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquet eget sit amet tellus cras adipiscing. Quis hendrerit dolor magna eget est lorem ipsum. Faucibus vitae aliquet nec ullamcorper sit amet risus. Placerat orci nulla pellentesque dignissim enim. Arcu felis bibendum ut tristique et. Mi bibendum neque egestas congue quisque egestas diam in arcu. Ultrices in iaculis nunc sed. In fermentum et sollicitudin ac orci. Nunc eget lorem dolor sed viverra ipsum nunc. Dui vivamus arcu felis bibendum ut tristique. Ipsum faucibus vitae aliquet nec ullamcorper sit amet. Lorem donec massa sapien faucibus et molestie. Molestie nunc non blandit massa.</p>
+            </article>
+        </section>
+        <aside>
+            <section>
+                <h2>By Department</h2>
+                <ul class="departments">
+                    <!-- not sure if need class here but will remove later maybe -->
+                    <li>
+                        <a href="#leadership">Leadership</a>
+                    </li>
+                    <li>
+                        <a href="#sales">Sales</a>
+                    </li>
+                    <li>
+                        <a href="#admin">Administration</a>
+                    </li>
+                    <li>
+                        <a href="#instructors">Instructors</a>
+                    </li>
+                </ul>
+            </section>
+        </aside>
+    </main>
+    <footer>
+        <section id="socials">
+            <p>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                Twitter: @softballaddict
+            </p>
+            <p>
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                Facebook: www.facebook.com/softballaddict
+            </p>
+            <p>
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                LinkedIn: www.linkedin.com/softballaddict
+            </p>
+        </section>
+        &copy; All Rights Reserved 2020
+    </footer>
+    <script>
+        function openMenuNav() {
+            document.getElementById('menu-btn').style.display = "none";
+            document.getElementById('menu-nav').style.width = "250px";
+        }
+        function closeMenuNav() {
+            document.getElementById('menu-btn').style.display = "block";
+            document.getElementById('menu-nav').style.width = "0";
+
+        }
+    </script>
+</body>
+</html>

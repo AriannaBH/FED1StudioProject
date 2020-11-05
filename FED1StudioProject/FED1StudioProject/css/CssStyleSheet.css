@@ -1,0 +1,231 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Permanent+Marker&display=swap');
+
+header {
+    background-color: rgb(20, 154, 182);
+    color: white;
+    font-weight: bold;
+}
+
+    header h4 {
+        font-size: 20px;
+    }
+
+    header p {
+        font-style: italic;
+        font-size: 18px;
+    }
+
+body {
+    background-color: rgb(20, 154, 182);
+}
+
+main {
+    background-color: rgb(20, 154, 182);
+    color: white;
+    padding: .5em;
+}
+
+#subtitles {
+    color: white;
+}
+
+.classes {
+    color: whitesmoke;
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(20, 154, 182);
+    color: white;
+}
+
+#indexText {
+    color: rgb(0, 0, 0);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+    a:hover, a:active, a:focus {
+        color: rgb(20, 154, 182);
+        text-decoration: underline;
+        background-color: white;
+    }
+
+nav a {
+    font-weight: bold;
+    color: #727176;
+}
+
+    nav a:hover, nav a:active, nav a:focus {
+        text-decoration: none;
+        background-color: rgb(20, 154, 182);
+        color: white;
+    }
+
+nav ul {
+    background-color: white;
+    padding: 0;
+    border-top: 2px solid #727176;
+    border-bottom: 2px solid #727176;
+    border-right: 2px solid #727176;
+    border-left: 2px solid #727176;
+}
+
+nav li:hover {
+    background-color: darkblue;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+    nav ul li a {
+        padding: .4em 1em;
+        display: block;
+    }
+
+.title {
+    box-shadow: -12px -10px 15px #727176 !important;
+}
+
+#class h3 {
+    text-align: left;
+}
+
+#class p {
+    display: compact;
+}
+
+.title h4 {
+    font-weight: bold;
+    font-size: 4em;
+    font-family: 'Bangers', cursive;
+    /*font-family: 'Permanent Marker', cursive;*/
+}
+
+.title p {
+    font-size: .9em;
+    font-family: 'Bangers', cursive;
+    letter-spacing: .2em;
+}
+
+h4 {
+    margin: 20px 7px 2px 4px;
+}
+
+#socials {
+    text-align: right;
+    padding-right: 2em;
+}
+
+main p {
+    font-family: "Times New Roman", "Bookman Old Style", Garamond and Courier;
+}
+
+main h1, h2, h3 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: .05em;
+}
+
+.title {
+    background-image: url('../images/softballaddictwebsite/pic 3.jpg');
+    background-repeat: no-repeat;
+    background-size: 90px;
+    background-position: right;
+}
+
+#id header {
+    word-spacing: 2px;
+}
+
+main {
+    padding: 1%;
+}
+
+/*Sidenav styling*/
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1030;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .9);
+    overflow-x: hidden;
+    padding-top: 100px;
+    transition: .5s;
+}
+
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 1.3em;
+        color: #808080;
+        display: block;
+        transition: .3s;
+    }
+
+        .sidenav a:hover {
+            color: rgb(20, 154, 182);
+        }
+
+.close-btn {
+    position: absolute;
+    top: 50px;
+    right: 25px;
+    font-size: 2em;
+    margin-left: 50px;
+}
+
+.button {
+    background: rgba(0, 0, 0, .5);
+    height: 100%;
+    width: 20px;
+    z-index: 1030;
+    position: fixed;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.vertical-text {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    writing-mode: vertical-lr;
+    color: #fff;
+    font-weight: bold;
+}
+
+/*Accordion Styling*/
+.ui-accordion .ui-accordion-header {
+    background-color: rgb(20, 154, 182);
+    
+    border-color: white;
+    color: white;
+}
+
+    .ui-accordion .ui-accordion-header:hover {
+        background-color: white;
+        color: rgb(20, 154, 182);
+    }
+
+    
+
+.ui-accordion .ui-accordion-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+
+/*Table Style*/
+#simpleTable {
+    color: black;
+}
+
+a {
+    color: white;
+}
